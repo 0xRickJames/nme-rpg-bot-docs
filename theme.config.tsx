@@ -9,7 +9,11 @@ const config: DocsThemeConfig = {
     if (asPath !== "/") {
       return {
         titleTemplate: "%s – NME Bot",
-        description: "NME Bot is your trusted assistant for managing communities and interacting with the Sonic blockchain.",
+        description: "NME Bot is an RPG bot for Discord.",
+      };
+    } else {
+      return {
+        description: "NME Bot is an RPG bot for Discord.",
       };
     }
   },
