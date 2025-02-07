@@ -1,4 +1,4 @@
-import React from "react";
+  import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
 
@@ -9,11 +9,11 @@ const config: DocsThemeConfig = {
     if (asPath !== "/") {
       return {
         titleTemplate: "%s – NME Bot",
-        description: "NME Bot is your trusted assistant for managing communities and interacting with the Sonic blockchain.",
       };
     }
   },
 
+  description: "NME Bot is your trusted assistant for managing communities and interacting with the Sonic blockchain.",
   faviconGlyph: "⚔",
   logo: <span>NME Bot</span>,
   gitTimestamp: null,
